@@ -1,5 +1,12 @@
-const Dashboard = () => {
-    return <div>Sidebar</div>
-}
+import { Box, useTheme } from "@mui/material";
+import { tokens } from "../../theme";
 
-export default Dashboard
+const Dashboard = () => {
+  const theme = useTheme();
+
+  return (
+    <Box m="20px" />
+  )
+};
+
+export default Dashboard;

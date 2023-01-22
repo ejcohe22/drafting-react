@@ -4,29 +4,32 @@ html,
 body,
 #root,
 .app,
-.content{
+.content {
   height: 100%;
   width: 100%;
-  font-family: 'Quattrocento-Sans', sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
 }
 
-.app{
+.app {
   display: flex;
   position: relative;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 10px;
 }
 
-::-webkit-scrollbar-track{
- background: #444;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
 }
 
-::-webkit-scrollbar-thumb{
-  background: #525;
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
 }
 
-::-webkit-scrollbar-track-hover{
-  background: #626;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
