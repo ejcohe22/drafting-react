@@ -41,7 +41,7 @@ const Sidebar = () => {
   const [selected, setSelected] = useState("Dashboard");
 
   return (
-    <Box
+    <Box  height="100%"
       sx={{
         "& .pro-sidebar-inner": {
           background: `${colors.primary[400]} !important`,
@@ -61,7 +61,6 @@ const Sidebar = () => {
       }}
     >
 
-    <div className='sidebar'>
       <ProSidebar collapsed={isCollapsed}>
         <Menu iconShape="square">
           {/* LOGO AND MENU ICON */}
@@ -186,7 +185,6 @@ const Sidebar = () => {
           </Box>
         </Menu>
       </ProSidebar>
-      </div>
     </Box>
   );
 };
