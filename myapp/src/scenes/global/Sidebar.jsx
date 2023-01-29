@@ -23,7 +23,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
     <MenuItem
       active={selected === title}
       style={{
-        color: colors.grey[100],
+        color: colors.gray[100],
       }}
       onClick={() => setSelected(title)}
       icon={icon}
@@ -44,7 +44,8 @@ const Sidebar = () => {
     <Box  height="100%"
       sx={{
         "& .pro-sidebar-inner": {
-          background: `${colors.primary[400]} !important`,
+          backgroundImage: "url(../../../public/assets/wood.jpeg)",
+          //background: `${colors.primary[400]} !important`,
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
@@ -69,7 +70,7 @@ const Sidebar = () => {
             icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
             style={{
               margin: "10px 0 20px 0",
-              color: colors.grey[100],
+              color: colors.gray[100],
             }}
           >
             {!isCollapsed && (
@@ -79,7 +80,7 @@ const Sidebar = () => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography variant="h3" color={colors.grey[100]}>
+                <Typography variant="h3" color={colors.gray[100]}>
                   ET####
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
@@ -99,7 +100,7 @@ const Sidebar = () => {
 
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={colors.gray[300]}
               sx={{ m: "15px 0 5px 5px" }}
             >
               Customer
@@ -127,7 +128,7 @@ const Sidebar = () => {
             />
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={colors.gray[300]}
               sx={{ m: "15px 0 5px 5px" }}
             >
             Plans
@@ -156,7 +157,7 @@ const Sidebar = () => {
 
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={colors.gray[300]}
               sx={{ m: "15px 0 5px 5px" }}
             >
               Monitoring
