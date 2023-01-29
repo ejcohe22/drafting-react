@@ -22,8 +22,8 @@ const Topbar = () => {
       <Box
         display="flex"
       >
-      <Typography variant="h1" font-weight="bold" color={colors.redAccent[500]}>
-          Hyper
+      <Typography variant="h1" font-weight="bold" color={colors.gray[100]}>
+          JUPITER-5
       </Typography>
       </Box>
 
