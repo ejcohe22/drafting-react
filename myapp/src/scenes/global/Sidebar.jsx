@@ -15,6 +15,7 @@ import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
+import WoodBar from "../../assets/wood.jpeg";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -44,8 +45,8 @@ const Sidebar = () => {
     <Box  height="100%"
       sx={{
         "& .pro-sidebar-inner": {
-          backgroundImage: "url(../../../public/assets/wood.jpeg)",
-          //background: `${colors.primary[400]} !important`,
+          background: `${colors.primary[400]} !important`,
+          //backgroundImage: `url(${WoodBar} !important`,
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
@@ -60,6 +61,7 @@ const Sidebar = () => {
           color: "#6870fa !important",
         },
       }}
+      style = {{}}
     >
 
       <ProSidebar collapsed={isCollapsed}>

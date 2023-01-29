@@ -1,0 +1,14 @@
+{
+    "Source 1" : {
+        "Start Time 1": "time",
+        "Target 1": "end_time",
+        "Target 2": "end_time"
+    },
+    "Source 2" : {
+        "Start_Time": "time",
+        "Target 1": "end_time"
+    },
+    "Source 3 " : {
+        "Start_Time": "time"
+    }
+}
