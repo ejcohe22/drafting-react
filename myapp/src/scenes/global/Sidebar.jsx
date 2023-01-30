@@ -45,7 +45,7 @@ const Sidebar = () => {
     <Box  height="100%"
       sx={{
         "& .pro-sidebar-inner": {
-          background: `${colors.primary[400]} !important`,
+          background: `${colors.primary[800]} !important`,
           //backgroundImage: `url(${WoodBar} !important`,
         },
         "& .pro-icon-wrapper": {
@@ -55,10 +55,10 @@ const Sidebar = () => {
           padding: "5px 35px 5px 15px !important",
         },
         "& .pro-inner-item:hover": {
-          color: "#868dfb !important",
+          color: `${colors.blueAccent[300]} !important`,
         },
         "& .pro-menu-item.active": {
-          color: "#6870fa !important",
+          color: `${colors.greenAccent[500]} !important`,
         },
       }}
       style = {{}}
@@ -102,7 +102,7 @@ const Sidebar = () => {
 
             <Typography
               variant="h6"
-              color={colors.gray[300]}
+              color={colors.gray[100]}
               sx={{ m: "15px 0 5px 5px" }}
             >
               Customer
@@ -130,7 +130,7 @@ const Sidebar = () => {
             />
             <Typography
               variant="h6"
-              color={colors.gray[300]}
+              color={colors.gray[100]}
               sx={{ m: "15px 0 5px 5px" }}
             >
             Plans
@@ -159,7 +159,7 @@ const Sidebar = () => {
 
             <Typography
               variant="h6"
-              color={colors.gray[300]}
+              color={colors.gray[100]}
               sx={{ m: "15px 0 5px 5px" }}
             >
               Monitoring

@@ -18,11 +18,11 @@ const Topbar = () => {
   return (
 
 
-    <Box display="flex" justifyContent="space-between" p={2}>
+    <Box display="flex" justifyContent="space-between" p={2} backgroundColor={colors.primary[900]}>
       <Box
         display="flex"
       >
-      <Typography variant="h1" font-weight="bold" color={colors.gray[100]}>
+      <Typography variant="h1" font-weight="bolder" color={colors.gray[100]}>
           JUPITER-5
       </Typography>
       </Box>
